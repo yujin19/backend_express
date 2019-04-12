@@ -8,11 +8,9 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 mongoose
   .connect(
-    // "mongodb://localhost:27017/userlist",
+    // 
     "mongodb://127.0.0.1:27017/userlist",
-    //"mongodb://localhost:27017/project1",
-    //"mongodb+srv://root:root@cluster0-9swpb.mongodb.net/userlist?retryWrites=true",
-    //"mongodb+srv://root:root@cluster0-9swpb.mongodb.net/userlist?retryWrites=true",
+    //"mongodb://localhost:27017/project1",,
     { useNewUrlParser: true }
   )
   .then(() => {
